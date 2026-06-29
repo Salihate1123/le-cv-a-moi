@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Interactif</title>
+    <!-- Lien CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Lien Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+    <!-- Bouton mode sombre -->
+    <button id="theme-btn">
+        <i class="fa-solid fa-moon"></i>
+    </button>
+    <!-- Header -->
+    <header>
+        <img src="images/photo-profil.jpg" alt="" width="150" height="150" class="photo">
+        <h1>Ndeye Aïssatou Dieng </h1>
+        <p>Étudiante en Licence 2 Informatique</p>
+        <div class="contact">
+            <p>Email : diengaissatou1123@gmail.com</p>
+            <p>Téléphone : 78 529 11 23</p>
+            <p>Touba, Sénégal</p>
+        </div>
+    </header>
+    <!-- Navigation -->
+    <nav>
+        <div class="menu-toggle">☰</div>
+        <ul class="menu">
+            <li><a href="#about">Presentation</a></li>
+            <li><a href="#formation">Formation</a></li>
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#experiences">Experiences</a></li>
+        </ul>
+    </nav>
+    <!-- Contenu principal -->
+    <main> 
+        <!-- Presentation -->
+        <section id="about">
+            <h2>Presentation</h2>
+            <p>
+                Je suis une étudiante en licence 2 Informatique passionnée par le développement web,
+                les bases de données et la programmation.Je suis  motivée, serieuse et Capable de travailler en équepe et d'apprendre rapidement de nouvelles technologies.
+            </p>
+        </section>
+        <!-- Formation -->
+        <section id="formation">
+            <h2>Formation </h2>
+            <ol>
+                <li>2025-2026 Licence 2 Informatique (en cours),UFR SET, Université Iba Der Thiam de Thiès</li>
+                <li>2024-2025 Licence 1 Informatique ,UFR SET, Université Iba Der Thiam de Thiès </li>
+                <li>2023-2024 Baccalauriat Scientifique, Lycee de Mbacke, Mbacke</li>
+                <li>2020-2021 BFEM au college CEM Mbacke3, Mbacke</li>
+                
+                
+            </ol>
+             
+       
+        </section>
+        <!--competences-->
+         <section id="competences">
+            <h2>Compétences</h2>
+    <!-- HTML -->
+    <ul> 
+        <li>
+            <div class="skill-info">
+            <p>HTML</p>
+            <span class="percent">40%</span>
+            </div>
+        
+        <div class="progress">
+            <div class="progress-bar html" data-percent="40"></div>
+            </div>
+        </li>
+    
+    <!-- CSS -->
+    <li >
+        <div class="skill-info">
+            <p>CSS</p>
+            <span class="percent">30%</span>
+            </div>
+        <div class="progress">
+            <div class="progress-bar css" data-percent="30"></div>
+        </div>
+    </li>
+    <!-- JavaScript -->
+    <li class="skill">
+        <div class="skill-info">
+           <p> JavaScript</p>
+            <span class="percent">20%</span>
+            </div>
+        
+        <div class="progress">
+            <div class="progress-bar js" data-percent="20"></div>
+        </div>
+    </li>
+    <!-- C -->
+    <li>
+        <div class="skill-info">
+            <p>C et algorithme</p>
+            <span class="percent">65%</span>
+        </div>
+        <div class="progress">
+            <div class="progress-bar c et algorithme" data-percent="65"></div>
+        </div>
+        </li>
+
+        <!-- Microsoft Word, Excel et PowerPoint -->
+    <li class="skill">
+        <div class="skill-info">
+           <p> Microsoft Word, Excel et PowerPoint</p>
+            <span class="percent">50%</span>
+            </div>
+        
+        <div class="progress">
+            <div class="progress-bar office" data-percent="50"></div>
+        </div>
+    </li>
+    </ul>
+</section>
+
+        <!--Experiences-->
+        <section id="experiences">
+            <h2>Experiences</h2>
+            <p>De Aout à Octobre 2025 puis de Decembre 2025 à fevrier 2026 , j'ai eu à faire un stage en comptabilité dans un magasin  appelé<strong> KHELCOM CARREUAX</strong>, qui vend toutes sortes de produits sanitaires</p>
+
+        </section>
+        <!-- Projets -->
+        <section id="projets">
+            <h2>Projets réalisés</h2>
+            <article>
+                <h3>Gestion Hôpital</h3>
+                <p>
+                    Conception d’une application de gestion hospitalière
+                    avec base de données.
+                </p>
+            </article>
+        </section>
+        <!-- Langues -->
+        <section>
+            <h2>Langues</h2>
+            <ul>
+                <li>Français : Bon niveau</li>
+                <li>Anglais : Niveau Moyen</li>
+                <li>Wolof: langue maternelle</li>
+            </ul>
+        </section>
+        <!-- Centres d'intérêt -->
+        <section>
+            <h2>Centres d’intérêt</h2>
+            <ul>
+                <li>Lecture coranique</li>
+                <li>Sport</li>
+                <li>cuisiner</li>
+            </ul>
+        </section>
+        <!-- Formulaire -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <input type="text" id="nom" placeholder="Votre nom"><br>
+                <input type="email" id="email" placeholder="Votre email"><br>
+                <textarea id="message" placeholder="Votre message"></textarea><br>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <p>&copy;2026 Ndeye Aissatou Dieng</p>
+        <a href="https://www.linkedin.com/in/ndeye-aissatou-dieng-8a777b419/">LinkedIn</a>
+        <a href="https://github.com/Salihate1123" target="_blank">GitHub</a>
+    </footer>
+     <!-- Bouton retour en haut -->
+    <button id="topBtn">retour</button>
+   
+   
+   
+</body>
+</html>
